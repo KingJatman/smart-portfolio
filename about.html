@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Alex Johnson - Junior Web Developer">
+    <title>About - Alex Johnson</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__container">
+                <a href="index.html" class="nav__logo">
+                    <span>AJ</span>
+                </a>
+                <ul class="nav__menu" id="nav-menu">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link nav__link--active">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="projects.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-toggle__icon">🌙</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="about-hero">
+            <div class="container">
+                <h1 class="page-title">About Me</h1>
+                <p class="page-subtitle">Get to know more about my journey and passion for web development</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="section__title">My Story</h2>
+                        <p class="about-paragraph">
+                            I'm a passionate junior web developer with a love for creating beautiful, 
+                            functional websites. My journey into web development started during my 
+                            computer science studies, where I discovered the perfect blend of creativity 
+                            and logic that frontend development offers.
+                        </p>
+                        <p class="about-paragraph">
+                            I specialize in HTML5, CSS3, and JavaScript, with a focus on responsive 
+                            design and user experience. I'm constantly learning new technologies and 
+                            best practices to stay current in this ever-evolving field.
+                        </p>
+                        <p class="about-paragraph">
+                            When I'm not coding, you can find me exploring new design trends, 
+                            contributing to open-source projects, or enjoying a good cup of coffee 
+                            while planning my next project.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <img src="/placeholder.svg?height=500&width=400" 
+                             alt="Alex working on a project" 
+                             class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline">
+            <div class="container">
+                <h2 class="section__title">My Journey</h2>
+                <div class="timeline__container">
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Started Learning Web Development</h3>
+                            <span class="timeline__date">2023</span>
+                            <p class="timeline__description">
+                                Began my journey with HTML, CSS, and JavaScript fundamentals
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">First Portfolio Project</h3>
+                            <span class="timeline__date">Mid 2023</span>
+                            <p class="timeline__description">
+                                Built my first responsive website using pure HTML, CSS, and JavaScript
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Freelance Projects</h3>
+                            <span class="timeline__date">2024</span>
+                            <p class="timeline__description">
+                                Started taking on small freelance projects to build real-world experience
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">
+                &copy; 2024 Alex Johnson. All rights reserved.
+            </p>
+            <div class="footer__social">
+                <a href="#" class="footer__link" aria-label="GitHub">GitHub</a>
+                <a href="#" class="footer__link" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" class="footer__link" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -664,7 +664,7 @@ body {
   margin-bottom: var(--spacing-xl);
 }
 
-/* .contact-item__icon {
+.contact-item__icon {
   font-size: var(--font-size-2xl);
   width: 60px;
   height: 60px;
@@ -673,11 +673,6 @@ body {
   justify-content: center;
   background-color: var(--bg-secondary);
   border-radius: var(--border-radius);
-} */
-
-  .contact-item__icon img {
-  width: 20px;
-  height: 20px;
 }
 
 .contact-item__content h3 {
